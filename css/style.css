@@ -1,0 +1,33 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* cita:
+font-family: 'Courgette', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    background-color: black;
+}
+
+.banner-text{
+    font-family: 'Courgette', cursive;
+}
+
+.contacto{
+    background-image: url(../img/7SUp.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.modal-content{
+    background-color: rgba(65, 189, 242, 0.252);
+    backdrop-filter: blur(2px);
+}
